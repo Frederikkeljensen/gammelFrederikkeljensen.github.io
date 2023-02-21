@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Min hjemmeside</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel=" stylesheet" href="style.css">
     <link rel="stylesheet" href="styleGallery.css">
 </head>
 
@@ -27,94 +28,451 @@
         </ul>
     </header>
 
+    <!-- swiper - gallery/ linket: https://www.youtube.com/watch?v=az6G5eUmXAw&ab_channel=WebTech -->
+    <!-- swiper - gallery/ linket: https://swiperjs.com/demos#effect-coverflow -->
     <!-- indhold -->
-    <section class="myGallery">
-        <span class="sliderSpan" id="sliderSpan1"></span>
-        <span class="sliderSpan" id="sliderSpan2"></span>
-        <span class="sliderSpan" id="sliderSpan3"></span>
-        <span class="sliderSpan" id="sliderSpan4"></span>
-        <span class="sliderSpan" id="sliderSpan5"></span>
-        <span class="sliderSpan" id="sliderSpan6"></span>
-        <span class="sliderSpan" id="sliderSpan7"></span>
+    <!-- Første billed -  gallery -->
+    <section class="swiper mySwiper">
+        <section class="swiper-wrapper">
 
-        <section class="imageSlider">
-            <section class="slideDiv" id="slide-1">
-                <img src="images/flytur.png" alt="" class="img" id="img">
-                <a href="#sliderSpan1" class="button" id="button-1"></a>
+            <section class="swiper-slide">
+                <img src="images/flytur.png" alt="">
             </section>
 
-            <section class="slideDiv" id="slide-2">
-                <img src="images/sommer-palads.png" alt="" class="img" id="img">
-                <a href="#sliderSpan2" class="button" id="button-2"></a>
+            <section class="swiper-slide">
+                <img src="images/sommer-palads.png" alt="">
             </section>
 
-            <section class="slideDiv" id="slide-3">
-                <img src="images/sommer-palds2.png" alt="" class="img" id="img">
-                <a href="#sliderSpan3" class="button" id="button-3"></a>
+            <section class=" swiper-slide">
+                <img src="images/sommer-palds2.png" alt="">
+            </section>
+            <section class="swiper-slide">
+                <img src="images/sommer-palads3.png" alt="">
             </section>
 
-            <section class="slideDiv" id="slide-4">
-                <img src="images/sommer-palads3.png" alt="" class="img" id="img">
-                <a href="#sliderSpan4" class="button" id="button-4"></a>
+            <section class="swiper-slide">
+                <img src="images/kina-mur.png" alt="">
             </section>
 
-            <section class="slideDiv" id="slide-5">
-                <img src="images/kina-mur.png" alt="" class="img" id="img">
-                <a href="#sliderSpan5" class="button" id="button-5"></a>
+            <section class="swiper-slide">
+                <img src="images/kina-mur2.png" alt="">
             </section>
 
-            <section class="slideDiv" id="slide-6">
-                <img src="images/kina-mur2.png" alt="" class="img" id="img">
-                <a href="#sliderSpan6" class="button" id="button-6"></a>
+            <section class="swiper-slide">
+                <img src="images/kina-mur3.png" alt="">
             </section>
 
-            <section class="slideDiv" id="slide-7">
-                <img src="images/kina-mur3.png" alt="" class="img" id="img">
-                <a href="#sliderSpan7" class="button" id="button-7"></a>
+            <section class="swiper-slide">
+                <img src="images/kina-mur4.png" alt="">
             </section>
+
+            <section class="swiper-slide">
+                <img src="images/kina-mur5.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/skorpion.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/skorpion2.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/skorpion3.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/flytur2.png" alt="">
+            </section>
+
         </section>
+        <section class="swiper-pagination"></section>
     </section>
 
-    <section class="myGallery">
-        <span class="sliderSpan" id="sliderSpan8"></span>
-        <span class="sliderSpan" id="sliderSpan9"></span>
-        <span class="sliderSpan" id="sliderSpan10"></span>
-        <span class="sliderSpan" id="sliderSpan11"></span>
-        <span class="sliderSpan" id="sliderSpan12"></span>
-        <span class="sliderSpan" id="sliderSpan13"></span>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-        <section class="imageSlider">
-            <section class="sliderDiv" id="slide-8">
-                <img src="images/kina-mur4.png" alt="" class="img" id="img">
-                <a href="#sliderSpan8" class="button" id="button-8"></a>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 30,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+
+    <!-- swiper - gallery/ linket: https://www.youtube.com/watch?v=az6G5eUmXAw&ab_channel=WebTech -->
+    <!-- swiper - gallery/ linket: https://swiperjs.com/demos#effect-coverflow -->
+    <!-- Andet billed - gallery -->
+    <section class="swiper mySwiper">
+        <section class="swiper-wrapper">
+
+            <section class="swiper-slide">
+                <img src="images/sommer-træ.png" alt="">
             </section>
 
-            <section class="sliderDiv" id="slide-9">
-                <img src="images/kina-mur5.png" alt="" class="img" id="img">
-                <a href="#sliderSpan9" class="button" id="button-9"></a>
+            <section class=" swiper-slide">
+                <img src="images/sommer-hav.png" alt="">
+            </section>
+            <section class="swiper-slide">
+                <img src="images/solsommer-hav.png" alt="">
             </section>
 
-            <section class="sliderDiv" id="slide-10">
-                <img src="images/skorpion.png" alt="" class="img" id="img">
-                <a href="#sliderSpan10" class="button" id="button-10"></a>
+            <section class="swiper-slide">
+                <img src="images/sne-sommer.png" alt="">
             </section>
 
-            <section class="sliderDiv" id="slide11">
-                <img src="images/skorpion2.png" alt="" class="img" id="img">
-                <a href="#sliderSpan11" class="button" id="button-11"></a>
+            <section class="swiper-slide">
+                <img src="images/is-tapper.png" alt="">
             </section>
 
-            <section class="sliderDiv" id="slide12">
-                <img src="images/skorpion3.png" alt="" class="img" id="img">
-                <a href="#sliderSpan12" class="button" id="button-12"></a>
+            <section class="swiper-slide">
+                <img src="images/kegnas.png" alt="">
             </section>
 
-            <section class="sliderDiv" id="slider13">
-                <img src="images/flytur2.png" alt="" class="img" id="img">
-                <a href="#sliderSpan13" class="button" id="button-13"></a>
+            <section class="swiper-slide">
+                <img src="images/kegnas2.png" alt="">
             </section>
+
+            <section class="swiper-slide">
+                <img src="images/sol-nedgang.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/sol-nedgang2.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/sne2.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/sne3.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/sne-sommer2.png" alt="">
+            </section>
+
         </section>
+        <section class="swiper-pagination"></section>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 30,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+    <!-- swiper - gallery/ linket: https://www.youtube.com/watch?v=az6G5eUmXAw&ab_channel=WebTech -->
+    <!-- swiper - gallery/ linket: https://swiperjs.com/demos#effect-coverflow -->
+    <!-- Trejde billed - gallery -->
+    <section class="swiper mySwiper">
+        <section class="swiper-wrapper">
+
+            <section class="swiper-slide">
+                <img src="images/jule-kiki.png" alt="">
+            </section>
+
+            <section class=" swiper-slide">
+                <img src="images/duplo.png" alt="">
+            </section>
+            <section class="swiper-slide">
+                <img src="images/moo.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/kat.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/kiki2.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/duplo2.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/moo2.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/moo3.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/killing.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/kikiogbell.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/tre-hunde.png" alt="">
+            </section>
+
+        </section>
+        <section class="swiper-pagination"></section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 30,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+    <!-- swiper - gallery/ linket: https://www.youtube.com/watch?v=az6G5eUmXAw&ab_channel=WebTech -->
+    <!-- swiper - gallery/ linket: https://swiperjs.com/demos#effect-coverflow -->
+    <!-- Fjerde billed - gallery -->
+    <section class="swiper mySwiper">
+        <section class="swiper-wrapper">
+
+            <section class="swiper-slide">
+                <img src="images/migsom-lille.png" alt="">
+            </section>
+
+            <section class=" swiper-slide">
+                <img src="images/mig3.png" alt="">
+            </section>
+            <section class="swiper-slide">
+                <img src="images/mig4.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/billedemedbror4.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/mig.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/mig2.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/kage.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/gaver.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/billedemedforældrene.png.jpg" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/billedemedbror.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/billedemedbror2.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/billedemedbror3.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/migmed-studenterhue.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/migmed-kage.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/billedmed-søskende.png" alt="">
+            </section>
+
+        </section>
+        <section class="swiper-pagination"></section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 30,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+    <!-- swiper - gallery/ linket: https://www.youtube.com/watch?v=az6G5eUmXAw&ab_channel=WebTech -->
+    <!-- swiper - gallery/ linket: https://swiperjs.com/demos#effect-coverflow -->
+    <!-- Femte billed - gallery -->
+    <section class="swiper mySwiper">
+        <section class="swiper-wrapper">
+
+            <section class="swiper-slide">
+                <img src="images/museum.png" alt="">
+            </section>
+
+            <section class=" swiper-slide">
+                <img src="images/museum2.png" alt="">
+            </section>
+            <section class="swiper-slide">
+                <img src="images/hvid-kjole.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/rødkjole.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/hvidkjole.png" alt="">
+            </section>
+
+        </section>
+        <section class="swiper-pagination"></section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 30,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+    <!-- swiper - gallery/ linket: https://www.youtube.com/watch?v=az6G5eUmXAw&ab_channel=WebTech -->
+    <!-- swiper - gallery/ linket: https://swiperjs.com/demos#effect-coverflow -->
+    <!-- Sjede billed - gallery -->
+    <section class="swiper mySwiper">
+        <section class="swiper-wrapper">
+
+            <section class="swiper-slide">
+                <img src="images/sine-gruppe.png" alt="">
+            </section>
+
+            <section class=" swiper-slide">
+                <img src="images/sine-gruppe2.png" alt="">
+            </section>
+            <section class="swiper-slide">
+                <img src="images/sine-gruppe3.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/sine-gruppe4.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/sine-gruppe5.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/skitur-sne.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/sne.png" alt="">
+            </section>
+
+            <section class="swiper-slide">
+                <img src="images/rømø.pnng.jpeg" alt="">
+            </section>
+
+        </section>
+        <section class="swiper-pagination"></section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 30,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+
 
     <!-- footer -->
     <footer class="upperFooter">
