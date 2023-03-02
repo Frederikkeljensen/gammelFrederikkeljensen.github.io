@@ -1,8 +1,8 @@
 :root {
     /* Farver */
     --font-color: black;
-    --header-color: #DED8F1;
-    --footer-color: #DED8F1;
+    --header-color: #8BB2D7;
+    --footer-color: #8BB2D7;
     --background-color: #768FBD;
     --button-color: white;
     --buttonBorder-color: #8FDDC7;
@@ -62,7 +62,7 @@ a {
 }
 
 .header ul a:hover {
-    background-color: #cdc5e6;
+    background-color: #a3c3e0;
 }
 
 /* header- logo */
@@ -145,6 +145,86 @@ a {
 .header .menu-btn:checked~.menu-icon .nav-icon:after {
     transform: rotate(45deg);
     top: 0;
+}
+
+/* footer */
+.upperFooter {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--footer-color);
+    justify-items: center;
+    width: 100vw;
+}
+
+.underFooter {
+    background-color: var(--footer-color);
+    font-family: "Bebas Neue";
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5rem;
+    color: var(--font-color);
+}
+
+/* footer__links */
+
+/* footer__links-menu */
+.footer__links {
+    color: var(--footer-color);
+    list-style: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer__links li {
+    padding: 0.5rem;
+}
+
+.footer__links li a {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.footer__links li a:hover {
+    opacity: 40%;
+}
+
+/* footer__socialMedia-icon */
+.footer__socialMedia {
+    color: var(--font-color);
+    list-style: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer__socialMedia li {
+    padding: 0.5rem;
+}
+
+.footer__socialMedia li a {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.footer__socialMedia li a:hover {
+    opacity: 40%;
+}
+
+.footer__socialMedia img {
+    width: 50px;
+    padding: 0 0.5rem;
+}
+
+.footer__socialMedia li {
+    display: inline-block;
+}
+
+.footer__socialMedia li a {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.footer__socialMedia li a:hover {
+    opacity: 40%;
 }
 
 /* mobil-størrelse, med header-menu */
