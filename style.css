@@ -20,6 +20,23 @@
     --spaceMedium: 1rem;
     --spaceLarge: calc(var(--fontSizeMedium)*1.5);
     --spaceXLarge: calc(var(--fontSizeMedium)*2);
+
+}
+
+h1 {
+    font-size: var(--fontSizeXLarge);
+}
+
+h2 {
+    font-size: var(--fontSizeLarge);
+}
+
+h3 {
+    font-size: var(--fontSizeLarge);
+}
+
+h4 {
+    font-size: var(--fontSizeMedium);
 }
 
 body {
