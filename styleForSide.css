@@ -156,9 +156,12 @@ p {
     text-align: center;
 }
 
-.info {
+.infoLink {
     display: flex;
     flex-direction: column;
+    background-color: #778bb3;
+    padding-top: var(--spaceMedium);
+    padding-bottom: var(--spaceMedium);
 }
 
 /* footer */
@@ -180,6 +183,27 @@ p {
 }
 
 /* footer__links */
+
+/* footer__links-menu */
+.footer__links {
+    color: var(--footer-color);
+    list-style: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer__links li {
+    padding: 0.5rem;
+}
+
+.footer__links li a {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.footer__links li a:hover {
+    opacity: 40%;
+}
 
 /* footer__socialMedia-icon */
 .footer__socialMedia {
