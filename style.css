@@ -24,19 +24,31 @@
 }
 
 h1 {
+    font-family: 'Merienda One', cursive;
     font-size: var(--fontSizeXLarge);
 }
 
 h2 {
+    font-family: 'Bellota Text', cursive;
+    font-family: 'Merienda One', cursive;
     font-size: var(--fontSizeLarge);
 }
 
 h3 {
-    font-size: var(--fontSizeMedium);
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
+    font-size: var(--fontSizeLarge);
 }
 
 h4 {
+    font-family: 'Bellota Text', cursive;
+    font-family: 'Merienda One', cursive;
     font-size: var(--fontSizeMedium);
+}
+
+p {
+    font-family: 'Bellota Text', cursive;
+    font-family: 'Chilanka', cursive;
 }
 
 body {
