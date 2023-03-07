@@ -5,9 +5,14 @@ body {
 
 .myProject {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     width: 100vw;
-    margin-bottom: 1rem;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 
 .myProject__img {
@@ -17,14 +22,6 @@ body {
     justify-items: center;
     padding: 1rem;
     padding-bottom: 50px;
-}
-
-.myProject__name {
-    font-size: medium;
-    font-weight: bold;
-    display: grid;
-    justify-items: center;
-    padding-right: 300px;
 }
 
 a {
@@ -42,7 +39,8 @@ a {
 
 .underFooter {
     background-color: var(--footer-color);
-    font-family: "Bebas Neue";
+    font-family: 'Bellota Text', cursive;
+    font-family: 'Chilanka', cursive;
     font-weight: 600;
     text-align: center;
     padding: 0.5rem;
