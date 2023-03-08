@@ -266,7 +266,7 @@ p {
 }
 
 /* tablet-størrelse */
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640x) {
     .header .img-logo {
         height: 60px;
     }
