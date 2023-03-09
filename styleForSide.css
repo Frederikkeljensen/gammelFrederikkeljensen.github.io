@@ -273,20 +273,18 @@ p {
 
     .info__picture {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2.5fr 1fr;
         background-color: rgba(224, 213, 175, 0.79);
     }
 
     .pictureMe-img {
-        width: 400px;
+        width: 200px;
         height: 385x;
     }
 
     .textMe {
         display: inline-table;
     }
-
-
 
     .upperFooter {
         display: grid;
@@ -315,11 +313,6 @@ p {
     .pictureMe-img {
         width: 200px;
         height: 350x;
-    }
-
-    .textMe {
-        display: grid;
-        grid-column: span 10;
     }
 
     .upperFooter {
