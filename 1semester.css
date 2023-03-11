@@ -3,24 +3,27 @@ body {
     background-color: var(--background-color)
 }
 
+.text {
+    text-align: center;
+}
+
 .myProject {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     width: 100vw;
 }
 
 .project {
     display: grid;
-    grid-template-columns: 1fr;
     justify-items: center;
+    grid-template-columns: 1fr;
 }
 
 .myProject__img {
-    width: 50vh;
-    height: 50vh;
     display: grid;
     justify-items: center;
-    padding: 1rem;
+    width: 50vh;
+    height: 50vh;
     padding-bottom: 50px;
 }
 
@@ -128,6 +131,11 @@ a {
         display: none;
     }
 
+    .myProject {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
 }
 
 /* tablet-størrelse */
@@ -156,9 +164,14 @@ a {
 }
 
 /* computer-størrelse */
-@media screen and (min-width: 1470px) {
+@media screen and (min-width: 1025px) {
     .header .img-logo {
         height: 60px;
+    }
+
+    .myProject {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .upperFooter {
