@@ -132,7 +132,6 @@ a {
     }
 
     .myProject {
-        display: grid;
         grid-template-columns: 1fr;
     }
 
@@ -145,8 +144,7 @@ a {
     }
 
     .myProject {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .upperFooter {
@@ -170,7 +168,6 @@ a {
     }
 
     .myProject {
-        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
