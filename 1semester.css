@@ -9,21 +9,21 @@ body {
 
 .myProject {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     width: 100vw;
 }
 
 .project {
     display: grid;
     justify-items: center;
-    grid-template-columns: 1fr;
+
 }
 
 .myProject__img {
     display: grid;
     justify-items: center;
-    width: 50vh;
-    height: 50vh;
+    width: 40vh;
+    height: 40vh;
     padding-bottom: 50px;
 }
 
@@ -132,6 +132,7 @@ a {
     }
 
     .myProject {
+        display: grid;
         grid-template-columns: 1fr;
     }
 
@@ -144,7 +145,13 @@ a {
     }
 
     .myProject {
+        display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .myProject__img {
+        width: 50vh;
+        height: 50vh;
     }
 
     .upperFooter {
@@ -168,6 +175,7 @@ a {
     }
 
     .myProject {
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
