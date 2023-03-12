@@ -9,7 +9,7 @@ h1 {
     text-align: center;
 }
 
-.project {
+h2 {
     padding-left: 2rem;
 }
 
@@ -20,7 +20,7 @@ h1 {
 }
 
 .slides-container {
-    height: calc(100vh - 2rem);
+    height: calc(50vh - 1rem);
     width: 100%;
     display: flex;
     overflow: scroll;
