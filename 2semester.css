@@ -4,6 +4,15 @@ body {
 }
 
 /* body */
+
+h1 {
+    text-align: center;
+}
+
+.project {
+    padding-left: 2rem;
+}
+
 .slider-wrapper {
     margin: 1rem;
     position: relative;
