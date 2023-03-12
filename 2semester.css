@@ -107,6 +107,15 @@ h4 {
     background-color: #da6f2b;
 }
 
+.car {
+    padding-left: 1rem;
+    width: 90%;
+}
+
+.car__header {
+    padding-left: 1rem;
+}
+
 /* footer */
 .upperFooter {
     display: grid;
