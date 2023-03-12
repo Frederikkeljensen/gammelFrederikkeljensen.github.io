@@ -219,6 +219,10 @@ h2 {
         height: 60px;
     }
 
+    .slider {
+        width: 30%;
+    }
+
     .upperFooter {
         display: grid;
         grid-template-columns: 1fr 1fr;
