@@ -22,6 +22,14 @@ h4 {
 
 }
 
+.slide-text {
+    padding-left: 10px;
+}
+
+.slide-header {
+    padding-left: 1rem;
+}
+
 .slider-wrapper {
     margin: 1rem;
     position: relative;
@@ -224,7 +232,7 @@ h4 {
     }
 
     .slider {
-        width: 30%;
+        width: 50%;
     }
 
     .upperFooter {
