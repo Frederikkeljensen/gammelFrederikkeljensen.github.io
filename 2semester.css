@@ -5,8 +5,9 @@ body {
 
 /* body */
 
-h1 {
+.text {
     text-align: center;
+    padding-left: 0rem;
 }
 
 h2 {

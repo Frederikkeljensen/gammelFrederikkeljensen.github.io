@@ -4,7 +4,31 @@ body {
 }
 
 /* body */
+h1 {
+    text-align: center;
+}
 
+h2 {
+    text-align: center;
+}
+
+h4 {
+    font-size: var(--fontSizeSmall);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.infoLink {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    background-color: #778bb3;
+    padding-top: var(--spaceMedium);
+    padding-bottom: var(--spaceMedium);
+}
 
 /* footer */
 .upperFooter {
