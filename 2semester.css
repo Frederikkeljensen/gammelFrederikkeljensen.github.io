@@ -220,7 +220,7 @@ h4 {
 }
 
 /* tablet-størrelse */
-@media screen and (min-width:767px) and (min-width:1024px) {
+@media screen and (min-width:749px) and (min-width:1024px) {
     .header .img-logo {
         height: 60px;
     }
