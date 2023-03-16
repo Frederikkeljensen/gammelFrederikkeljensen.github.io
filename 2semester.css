@@ -117,6 +117,15 @@ h4 {
     padding-left: 1rem;
 }
 
+.counter {
+    padding-left: 1rem;
+    width: 90%;
+}
+
+.counter__header {
+    padding-left: 1rem;
+}
+
 /* footer */
 .upperFooter {
     display: grid;
