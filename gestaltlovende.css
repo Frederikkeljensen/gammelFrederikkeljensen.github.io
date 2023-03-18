@@ -37,6 +37,13 @@ p {
     width: 50%;
 }
 
+.lovenOmFigurudannelsen-img {
+    padding-bottom: 2rem;
+    padding-left: 350px;
+    height: 55vh;
+    width: 50%;
+}
+
 .button {
     display: flex;
     justify-content: center;
