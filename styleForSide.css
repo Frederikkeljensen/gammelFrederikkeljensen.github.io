@@ -158,13 +158,62 @@ p {
     text-align: center;
 }
 
+.info {
+    display: grid;
+    gap: 1rem;
+}
+
 .infoLink {
     display: block;
     display: flex;
     flex-direction: column;
-    background-color: #778bb3;
     padding-top: var(--spaceMedium);
     padding-bottom: var(--spaceMedium);
+}
+
+.ui-ux {
+    background-image: url(images/ui-ux-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kodning {
+    background-image: url(images/kodning-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.varktajer {
+    background-image: url(images/varktajer-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.some {
+    background-image: url(images/some-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.semester {
+    background-image: url(images/semester-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* footer */
