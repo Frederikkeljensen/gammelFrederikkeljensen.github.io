@@ -17,18 +17,21 @@ p {
 }
 
 .lovenOmNarhed-img {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+    padding-bottom: 2rem;
     padding-left: 350px;
     height: 30vh;
     width: 50%;
 }
 
-.lovenOmCommonRegion {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+.lovenOmCommonRegion-img {
+    padding-bottom: 2rem;
+    padding-left: 350px;
+    height: 30vh;
+    width: 50%;
+}
+
+.lovenOmEnsartethed-img {
+    padding-bottom: 2rem;
     padding-left: 350px;
     height: 30vh;
     width: 50%;
