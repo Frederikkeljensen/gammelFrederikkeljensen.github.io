@@ -178,6 +178,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
 }
 
 .kodning {
@@ -187,6 +189,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
 }
 
 .varktajer {
@@ -196,6 +200,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
 }
 
 .some {
@@ -205,6 +211,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
 }
 
 .semester {
@@ -214,6 +222,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
 }
 
 /* footer */

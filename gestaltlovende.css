@@ -16,6 +16,33 @@ p {
     text-align: center;
 }
 
+.lovenOmNarhed-img {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 350px;
+    height: 30vh;
+    width: 50%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: var(--spaceSmall);
+}
+
+.button__action {
+    background-color: var(--buttonBorder-color);
+    border-radius: 20vh;
+    border: solid black;
+    height: 3.5rem;
+    width: 10%;
+    font-size: var(--fontSizeMedium);
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
+    ;
+}
+
 /* footer */
 .upperFooter {
     display: grid;
