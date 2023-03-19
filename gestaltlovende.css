@@ -228,6 +228,10 @@ p {
         height: 60px;
     }
 
+    .lovenOmNarhed-img {
+        padding-left: 350px;
+    }
+
     .upperFooter {
         display: grid;
         grid-template-columns: 1fr 1fr;
