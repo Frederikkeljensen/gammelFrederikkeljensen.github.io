@@ -70,6 +70,7 @@ p {
     border: solid black;
     height: 3.5rem;
     width: 40%;
+    color: var(--font-color);
     font-size: var(--fontSizeMedium);
     font-family: 'Merienda One', cursive;
     font-family: 'Yuji Mai', serif;
