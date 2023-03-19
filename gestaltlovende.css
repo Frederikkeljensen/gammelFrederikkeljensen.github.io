@@ -44,6 +44,20 @@ p {
     width: 50%;
 }
 
+.lovenOmForbundethed-img {
+    padding-bottom: 2rem;
+    padding-left: 345px;
+    height: 30vh;
+    width: 50%;
+}
+
+.lovenOmFigurOgBaggrund-img {
+    padding-bottom: 1rem;
+    padding-left: 370px;
+    height: 30vh;
+    width: 50%;
+}
+
 .button {
     display: flex;
     justify-content: center;
