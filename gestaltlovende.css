@@ -184,6 +184,30 @@ p {
         height: 60px;
     }
 
+    .lovenOmNarhed-img {
+        padding-left: 120px;
+    }
+
+    .lovenOmCommonRegion-img {
+        padding-left: 120px;
+    }
+
+    .lovenOmEnsartethed-img {
+        padding-left: 120px;
+    }
+
+    .lovenOmFigurudannelsen-img {
+        padding-left: 120px;
+    }
+
+    .lovenOmForbundethed-img {
+        padding-left: 120px;
+    }
+
+    .lovenOmFigurOgBaggrund-img {
+        padding-left: 120px;
+    }
+
     .upperFooter {
         display: grid;
         grid-template-columns: 1fr 1fr;
