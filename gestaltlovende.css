@@ -67,7 +67,7 @@ p {
 .button__action {
     background-color: var(--buttonBorder-color);
     border-radius: 20vh;
-    border: solid black;
+    border: thin solid black;
     height: 3.5rem;
     width: 40%;
     color: var(--font-color);
