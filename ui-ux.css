@@ -21,13 +21,61 @@ p {
     text-align: center;
 }
 
+.info {
+    display: grid;
+    gap: 1rem;
+}
+
 .infoLink {
     display: block;
     display: flex;
     flex-direction: column;
-    background-color: #778bb3;
     padding-top: var(--spaceMedium);
     padding-bottom: var(--spaceMedium);
+}
+
+.gestaltlovende {
+    background-image: url(images/gestaltlovende-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
+}
+
+.crap {
+    background-image: url(images/crap-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
+}
+
+.testing {
+    background-image: url(images/testing-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
+}
+
+.kommunikationsTeori {
+    background-image: url(images/kommunikationsTeori-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
 }
 
 /* footer */
@@ -137,6 +185,11 @@ p {
         height: 60px;
     }
 
+    .info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .upperFooter {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -155,6 +208,11 @@ p {
 @media screen and (min-width: 1025px) {
     .header .img-logo {
         height: 60px;
+    }
+
+    .info {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .upperFooter {
