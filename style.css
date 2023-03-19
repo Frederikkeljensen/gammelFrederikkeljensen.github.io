@@ -61,7 +61,7 @@ body {
 
 a {
     font-family: "Bebas Neue";
-    font-weight: 100;
+    font-weight: 300;
     text-align: center;
     color: var(--font-color);
     text-decoration: none;
@@ -191,7 +191,7 @@ a {
 .underFooter {
     background-color: var(--footer-color);
     font-family: "Bebas Neue";
-    font-weight: 600;
+    font-weight: 300;
     text-align: center;
     padding: 0.5rem;
     color: var(--font-color);
