@@ -185,7 +185,10 @@ p {
     }
 
     .lovenOmNarhed-img {
-        padding-left: 240px;
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+
     }
 
     .lovenOmCommonRegion-img {
@@ -206,6 +209,11 @@ p {
 
     .lovenOmFigurOgBaggrund-img {
         padding-left: 240px;
+    }
+
+    .button__action {
+        height: 3.5rem;
+        width: 25%;
     }
 
     .upperFooter {
@@ -250,6 +258,11 @@ p {
 
     .lovenOmFigurOgBaggrund-img {
         padding-left: 350px;
+    }
+
+    .button__action {
+        height: 3.5rem;
+        width: 10%;
     }
 
     .upperFooter {
