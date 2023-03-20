@@ -26,6 +26,14 @@ p {
     font-size: large;
 }
 
+.crap-img {
+    padding-bottom: 2rem;
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
 .button {
     display: flex;
     justify-content: center;
@@ -141,6 +149,16 @@ p {
 
     .header .menu-icon {
         display: none;
+    }
+
+    .gestaltlovende {
+        font-family: "Bebas Neue";
+        font-size: medium;
+    }
+
+    .narboks {
+        font-family: "Bebas Neue";
+        font-size: medium;
     }
 
 }
