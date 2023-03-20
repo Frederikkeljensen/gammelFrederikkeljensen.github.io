@@ -16,6 +16,15 @@ p {
     text-align: center;
 }
 
+.gestaltlovende {
+    font-family: "Bebas Neue";
+    font-size: large;
+}
+
+.narboks {
+    font-family: "Bebas Neue";
+    font-size: large;
+}
 
 .button {
     display: flex;
