@@ -16,46 +16,10 @@ p {
     text-align: center;
 }
 
-.lovenOmNarhed-img {
+.gestaltLovende-img-img {
     padding-bottom: 2rem;
-    padding-left: 100px;
-    height: 30vh;
-    width: 50%;
-}
-
-.lovenOmCommonRegion-img {
-    padding-bottom: 2rem;
-    padding-left: 100px;
-    height: 30vh;
-    width: 50%;
-}
-
-.lovenOmEnsartethed-img {
-    padding-bottom: 2rem;
-    padding-left: 100px;
-    height: 30vh;
-    width: 50%;
-}
-
-.lovenOmFigurudannelsen-img {
-    padding-bottom: 2rem;
-    padding-left: 100px;
-    height: 55vh;
-    width: 50%;
-}
-
-.lovenOmForbundethed-img {
-    padding-bottom: 2rem;
-    padding-left: 90px;
-    height: 30vh;
-    width: 50%;
-}
-
-.lovenOmFigurOgBaggrund-img {
-    padding-bottom: 1rem;
-    padding-left: 100px;
-    height: 30vh;
-    width: 50%;
+    height: auto;
+    width: 60%;
 }
 
 .bratmobile {
