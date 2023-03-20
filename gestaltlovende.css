@@ -16,10 +16,12 @@ p {
     text-align: center;
 }
 
-.gestaltLovende-img-img {
+.gestaltLovende-img {
     padding-bottom: 2rem;
+    width: 50%;
     height: auto;
-    width: 60%;
+    display: flex;
+    margin: auto;
 }
 
 .bratmobile {
