@@ -199,6 +199,16 @@ p {
         width: 10%;
     }
 
+    .gestaltlovende {
+        font-family: "Bebas Neue";
+        font-size: large;
+    }
+
+    .narboks {
+        font-family: "Bebas Neue";
+        font-size: large;
+    }
+
     .upperFooter {
         display: grid;
         grid-template-columns: 1fr 1fr;
