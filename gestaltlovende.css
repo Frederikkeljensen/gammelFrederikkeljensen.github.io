@@ -46,7 +46,6 @@ p {
     font-size: var(--fontSizeMedium);
     font-family: 'Merienda One', cursive;
     font-family: 'Yuji Mai', serif;
-    ;
 }
 
 /* footer */
@@ -156,30 +155,6 @@ p {
         height: 60px;
     }
 
-    .lovenOmNarhed-img {
-        padding-left: 240px;
-    }
-
-    .lovenOmCommonRegion-img {
-        padding-left: 240px;
-    }
-
-    .lovenOmEnsartethed-img {
-        padding-left: 240px;
-    }
-
-    .lovenOmFigurudannelsen-img {
-        padding-left: 240px;
-    }
-
-    .lovenOmForbundethed-img {
-        padding-left: 240px;
-    }
-
-    .lovenOmFigurOgBaggrund-img {
-        padding-left: 240px;
-    }
-
     .button__action {
         height: 3.5rem;
         width: 25%;
@@ -203,30 +178,6 @@ p {
 @media screen and (min-width: 1025px) {
     .header .img-logo {
         height: 60px;
-    }
-
-    .lovenOmNarhed-img {
-        padding-left: 350px;
-    }
-
-    .lovenOmCommonRegion-img {
-        padding-left: 350px;
-    }
-
-    .lovenOmEnsartethed-img {
-        padding-left: 350px;
-    }
-
-    .lovenOmFigurudannelsen-img {
-        padding-left: 350px;
-    }
-
-    .lovenOmForbundethed-img {
-        padding-left: 350px;
-    }
-
-    .lovenOmFigurOgBaggrund-img {
-        padding-left: 350px;
     }
 
     .button__action {

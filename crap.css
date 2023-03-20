@@ -16,6 +16,25 @@ p {
     text-align: center;
 }
 
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: var(--spaceSmall);
+}
+
+.button__action {
+    background-color: var(--buttonBorder-color);
+    border-radius: 20vh;
+    border: thin solid black;
+    height: 3.5rem;
+    width: 40%;
+    color: var(--font-color);
+    font-size: var(--fontSizeMedium);
+    font-family: 'Merienda One', cursive;
+    font-family: 'Yuji Mai', serif;
+}
+
 /* footer */
 .upperFooter {
     display: grid;
@@ -123,6 +142,11 @@ p {
         height: 60px;
     }
 
+    .button__action {
+        height: 3.5rem;
+        width: 25%;
+    }
+
     .upperFooter {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -141,6 +165,11 @@ p {
 @media screen and (min-width: 1025px) {
     .header .img-logo {
         height: 60px;
+    }
+
+    .button__action {
+        height: 3.5rem;
+        width: 10%;
     }
 
     .upperFooter {
