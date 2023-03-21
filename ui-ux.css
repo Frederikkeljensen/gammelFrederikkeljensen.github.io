@@ -74,6 +74,46 @@ p {
     font-family: 'Merienda One', cursive;
 }
 
+.sketchingOgWireframing {
+    background-image: url(images/sketchingOgWireframing-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+}
+
+.designproces {
+    background-image: url(images/designproces-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+}
+
+.typografi {
+    background-image: url(images/typografi-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+}
+
+.designTeori {
+    background-image: url();
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+}
+
 /* footer */
 .upperFooter {
     display: grid;
@@ -207,7 +247,6 @@ p {
     }
 
     .info {
-        display: grid;
         grid-template-columns: 1fr;
     }
 
