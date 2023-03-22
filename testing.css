@@ -16,8 +16,9 @@ p {
     text-align: center;
 }
 
-.app {
-    font-family: "Bebas Neue";
+.example {
+    font-family: 'Bellota Text', cursive;
+    font-family: 'Chilanka', cursive;
     font-size: medium;
 }
 
