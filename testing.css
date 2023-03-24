@@ -16,10 +16,16 @@ p {
     text-align: center;
 }
 
-.example {
-    font-family: 'Bellota Text', cursive;
-    font-family: 'Chilanka', cursive;
-    font-size: medium;
+.app {
+    font-family: "Bebas Neue";
+    font-size: large;
+}
+
+.exampel {
+    height: auto;
+    width: 50%;
+    display: flex;
+    margin: auto;
 }
 
 .button {
@@ -165,6 +171,11 @@ p {
 @media screen and (min-width: 1025px) {
     .header .img-logo {
         height: 60px;
+    }
+
+    .button__action {
+        height: 3.5rem;
+        width: 15%;
     }
 
     .upperFooter {
