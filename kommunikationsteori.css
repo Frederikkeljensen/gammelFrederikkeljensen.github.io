@@ -16,9 +16,11 @@ p {
     text-align: center;
 }
 
-body {
-    margin: 0;
-    background-color: var(--background-color)
+.law {
+    height: auto;
+    width: 50%;
+    display: flex;
+    margin: auto;
 }
 
 /* footer */
