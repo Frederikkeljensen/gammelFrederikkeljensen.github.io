@@ -16,6 +16,11 @@ p {
     text-align: center;
 }
 
+.text {
+    font-weight: 500;
+    font-size: large;
+}
+
 .law {
     height: auto;
     width: 50%;
