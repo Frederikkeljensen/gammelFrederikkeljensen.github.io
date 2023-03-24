@@ -12,106 +12,13 @@ h2 {
     text-align: center;
 }
 
-h4 {
-    font-size: var(--fontSizeSmall);
-    text-align: center;
-}
-
 p {
     text-align: center;
 }
 
-.info {
-    display: grid;
-    gap: 1rem;
-}
-
-.infoLink {
-    display: block;
-    display: flex;
-    flex-direction: column;
-    padding-top: var(--spaceMedium);
-    padding-bottom: var(--spaceMedium);
-}
-
-.gestaltlovende {
-    background-image: url(images/gestaltlovende-img.png);
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.crap {
-    background-image: url(images/crap-img.png);
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.testing {
-    background-image: url(images/testing-img.png);
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.kommunikationsTeori {
-    background-image: url(images/kommunikationsTeori-img.png);
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.sketchingOgWireframing {
-    background-image: url(images/sketchingOgWireframing-img.png);
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.designproces {
-    background-image: url(images/designproces-img.png);
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.typografi {
-    background-image: url(images/typografi-img.png);
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.designTeori {
-    background-image: url();
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
+body {
+    margin: 0;
+    background-color: var(--background-color)
 }
 
 /* footer */
@@ -239,10 +146,6 @@ p {
 @media screen and (min-width: 1025px) {
     .header .img-logo {
         height: 60px;
-    }
-
-    .info {
-        grid-template-columns: 1fr;
     }
 
     .upperFooter {
