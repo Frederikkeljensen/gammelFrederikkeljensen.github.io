@@ -16,16 +16,9 @@ p {
     text-align: center;
 }
 
-.app {
+.link {
     font-family: "Bebas Neue";
     font-size: large;
-}
-
-.testing-img {
-    height: auto;
-    width: 50%;
-    display: flex;
-    margin: auto;
 }
 
 .button {
