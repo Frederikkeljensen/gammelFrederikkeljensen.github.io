@@ -16,6 +16,11 @@ p {
     text-align: center;
 }
 
+.link {
+    font-family: "Bebas Neue";
+    font-size: large;
+}
+
 /* footer */
 .upperFooter {
     display: grid;
@@ -123,6 +128,11 @@ p {
         height: 60px;
     }
 
+    .button__action {
+        height: 3.5rem;
+        width: 25%;
+    }
+
     .upperFooter {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -141,6 +151,11 @@ p {
 @media screen and (min-width: 1025px) {
     .header .img-logo {
         height: 60px;
+    }
+
+    .button__action {
+        height: 3.5rem;
+        width: 15%;
     }
 
     .upperFooter {
