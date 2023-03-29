@@ -35,7 +35,7 @@ p {
 }
 
 .css {
-    background-image: url();
+    background-image: url(images/css-img.png);
     height: 20vh;
     width: 100%;
     display: flex;
@@ -45,7 +45,7 @@ p {
 }
 
 .javascript {
-    background-image: url();
+    background-image: url(images/javascript-img.png);
     height: 20vh;
     width: 100%;
     display: flex;
@@ -55,7 +55,7 @@ p {
 }
 
 .bem {
-    background-image: url();
+    background-image: url(images/bem-img.png);
     height: 20vh;
     width: 100%;
     display: flex;
@@ -65,7 +65,7 @@ p {
 }
 
 .kodevalidering {
-    background-image: url();
+    background-image: url(images/kodevalidering.png);
     height: 20vh;
     width: 100%;
     display: flex;
@@ -75,7 +75,7 @@ p {
 }
 
 .mobilFirst {
-    background-image: url();
+    background-image: url(images/mobil-first-img.png);
     height: 20vh;
     width: 100%;
     display: flex;
