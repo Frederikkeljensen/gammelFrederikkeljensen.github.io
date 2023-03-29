@@ -104,6 +104,16 @@ p {
     font-family: 'Merienda One', cursive;
 }
 
+.designSystem {
+    background-image: url(images/design-system-img.png);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+}
+
 .typografi {
     background-image: url(images/typografi-img.png);
     height: 20vh;

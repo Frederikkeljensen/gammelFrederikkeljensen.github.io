@@ -12,76 +12,27 @@ h2 {
     text-align: center;
 }
 
+h4 {
+    font-size: var(--fontSizeSmall);
+    text-align: center;
+}
+
 p {
     text-align: center;
 }
 
-.infoLink {
-    display: block;
+.design__system-img {
+    padding-bottom: 2rem;
+    width: 50%;
+    height: auto;
     display: flex;
-    flex-direction: column;
-    padding-top: var(--spaceMedium);
-    padding-bottom: var(--spaceMedium);
+    margin: auto;
 }
 
-.html {
-    background-image: url(images/html-img.png);
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.css {
-    background-image: url();
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.javascript {
-    background-image: url();
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.bem {
-    background-image: url();
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.kodevalidering {
-    background-image: url();
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
-}
-
-.mobilFirst {
-    background-image: url();
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merienda One', cursive;
+.example {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 1.5rem;
 }
 
 /* footer */

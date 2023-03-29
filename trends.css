@@ -151,6 +151,11 @@ p {
         height: 60px;
     }
 
+    .trends {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .upperFooter {
         display: grid;
         grid-template-columns: 1fr 1fr;
