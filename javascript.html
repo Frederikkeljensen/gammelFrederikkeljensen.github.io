@@ -199,27 +199,27 @@
         <p>
             DOM-forespørgselsmetoder:
         </p>
-        <p>
+        <h4>
             Document.getElementById()
-        </p>
+        </h4>
         <p>
             Denne metode returnerer et elementobjekt, der repræsenterer det element, hvis id matcher den streng, der
             sendes ind som et argument. Da ID'er er unikke (eller i det mindste burde være det!), vil denne metode højst
             returnere ét element. Hvis ingen findes, vil den returnere null. Bemærk denne metodes kamelkasse karakter.
         </p>
 
-        <p>
+        <h4>
             Document.getElementsByClassName()
-        </p>
+        </h4>
         <p>
             This method returns an HTML Collection (more on this in a moment) of all elements which match all of the
             given class name(s).
             I modsætning til document.getElementById() kan denne metode kaldes på elementer INDEN FOR DOM-træet.
         </p>
 
-        <p>
+        <h4>
             Document.querySelector()
-        </p>
+        </h4>
         <p>
             Denne metode returnerer det første element i dokumentet, der matcher vælgeren, der er sendt ind som et
             argument. Det returnerer højst et enkelt element.
@@ -228,9 +228,9 @@
             forespørgsler, så du kan være sikker på, at du kun vælger de elementer, du virkelig ønsker.
         </p>
 
-        <p>
+        <h4>
             Document.querySelectorAll()
-        </p>
+        </h4>
         <p>
             Denne metode returnerer en nodeliste (mere om det om et øjeblik), der repræsenterer listen over dokumentets
             elementer, der matcher den eller de givne vælgere. Ligesom document.querySelector() forventer den, at en
@@ -244,7 +244,21 @@
 
         <h2>Event listeners</h2>
         <p>
-
+            AddEventListener()-metoden i EventTarget-grænsefladen opsætter en funktion, der kaldes, hver gang den
+            angivne hændelse leveres til målet.
+            Almindelige mål er Element eller dets underordnede, Document og Window, men målet kan være ethvert objekt,
+            der understøtter hændelser (såsom XMLHttpRequest).
+        </p>
+        <p>
+            Metoden addEventListener() virker ved at tilføje en funktion eller et objekt, der implementerer
+            EventListener, til listen over hændelseslyttere for den angivne hændelsestype på EventTarget, som den kaldes
+            på. Hvis funktionen eller objektet allerede er på listen over begivenhedslyttere for dette mål, tilføjes
+            funktionen eller objektet ikke en anden gang.
+        </p>
+        <p>
+            Hvis en begivenhedslytter føjes til et EventTarget inde fra en anden lytter - det vil sige under
+            behandlingen af ​​begivenheden - vil den begivenhed ikke udløse den nye lytter. Den nye lytter kan dog blive
+            udløst under et senere trin af hændelsesflowet, såsom under boblende fasen.
         </p>
 
         <h2>Mit ejet eksempel</h2>
@@ -254,7 +268,10 @@
 
         <h2>Conditional statement</h2>
         <p>
-
+            Den betingede (ternære) operator er den eneste JavaScript-operator, der tager tre operander: en betingelse
+            efterfulgt af et spørgsmålstegn (?), derefter et udtryk, der skal udføres, hvis betingelsen er sand,
+            efterfulgt af et kolon (:), og til sidst udtrykket til udføres, hvis betingelsen er falsk. Denne operator
+            bruges ofte som et alternativ til en if...else-sætning.
         </p>
 
         <h2>Mit ejet eksempel</h2>
@@ -264,7 +281,93 @@
 
         <h2>Loops</h2>
         <p>
+            Loops tilbyder en hurtig og nem måde at gøre noget gentagne gang.
+            Du kan tænke på en loop som en computeriseret version af spillet, hvor du fortæller nogen om at tage X
+            skridt i én retning, og derefter Y trin i en anden.
+            For eksempel kunne ideen "Gå fem trin mod øst" udtrykkes på denne måde som en løkke.
 
+            Der er mange forskellige slags loops, men de gør alle i det væsentlige det samme: de gentager en handling et
+            antal gange. (Bemærk, at det er muligt, at tallet kan være nul!)
+        </p>
+        <p>
+            De forskellige løkkemekanismer tilbyder forskellige måder at bestemme start- og slutpunkterne for løkken.
+            Der er forskellige situationer, der lettere betjenes af én type loop frem for de andre.
+        </p>
+        <p>
+            Udtalelserne for loops, der leveres i JavaScript er:
+        </p>
+
+        <h4>
+            for statement
+        </h4>
+        <p>
+            A for loop gentages, indtil en specificeret betingelse evalueres til falsk. JavaScript for
+            loop ligner Java og C for loop.
+        </p>
+
+        <h4>
+            do...while statement
+        </h4>
+        <p>
+            Do...while-sætningen gentages, indtil en specificeret betingelse evalueres til falsk.
+        </p>
+
+        <h4>
+            while statement
+        </h4>
+        <p>
+            En while-sætning udfører sine udsagn, så længe en specificeret betingelse evalueres til
+            sand.
+        </p>
+
+        <h4>
+            labeled statement
+        </h4>
+        <p>
+            En etiket giver en erklæring med en identifikator, der lader dig henvise til den andre
+            steder i dit program. For eksempel kan du bruge en etiket til at identificere en løkke og derefter bruge
+            break- eller continue-sætningerne til at angive, om et program skal afbryde løkken eller fortsætte dens
+            udførelse.
+        </p>
+
+        <h4>
+            break statement
+        </h4>
+        <p>
+            Brug break-sætningen til at afslutte en loop, switch eller i forbindelse med en mærket
+            sætning.
+            Når du bruger break uden en etiket, afslutter den det inderste omsluttende while, do-while, for eller switch
+            øjeblikkeligt og overfører kontrollen til følgende sætning.
+            Når du bruger break med en etiket, afslutter det den angivne mærkede sætning.
+        </p>
+
+        <h4>
+            continue statement
+        </h4>
+        <p>
+            Fortsæt-sætningen kan bruges til at genstarte en while, do-while, for eller
+            label-sætning. Når du bruger fortsæt uden en etiket, afslutter den den aktuelle iteration af den inderste
+            omsluttende while, do-while eller for statement og fortsætter udførelse af løkken med den næste iteration. I
+            modsætning til break-sætningen afslutter continu ikke udførelsen af ​​løkken helt. I en while-løkke hopper
+            den tilbage til tilstanden. I en for-løkke hopper den til inkrement-udtrykket. Når du bruger fortsæt med en
+            etiket, gælder det for looping-sætningen, der er identificeret med den pågældende etiket.
+        </p>
+
+        <h4>
+            for...in statement
+        </h4>
+        <p>
+            For...in-sætningen itererer en specificeret variabel over alle de talrige egenskaber
+            for et objekt. For hver enkelt egenskab udfører JavaScript de angivne udsagn.
+        </p>
+
+        <h4>
+            for...of statement
+        </h4>
+        <p>
+            For...of-sætningen opretter en løkke, der itererer over iterable objekter (inklusive
+            Array, Map, Set, arguments-objekt og så videre), og påkalder en tilpasset iterationshook med sætninger, der
+            skal udføres for værdien af ​​hver særskilt egenskab.
         </p>
 
         <h2>Mit ejet eksempel</h2>
