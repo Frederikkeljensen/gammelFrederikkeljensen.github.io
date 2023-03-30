@@ -16,6 +16,12 @@ p {
     text-align: center;
 }
 
+.example {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 1.5rem;
+}
+
 /* footer */
 .upperFooter {
     display: grid;
