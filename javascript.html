@@ -153,7 +153,36 @@
 
         <h2>Object + arrays</h2>
         <p>
+            Et objekt er en samling af egenskaber, og en egenskab er en forbindelse mellem et navn (eller nøgle) og en
+            værdi. En ejendoms værdi kan være en funktion, i hvilket tilfælde egenskaben er kendt som en metode.
+            Objekter i JavaScript kan, ligesom i mange andre programmeringssprog, sammenlignes med objekter i det
+            virkelige liv. I JavaScript er et objekt en selvstændig enhed med egenskaber og type.
+        </p>
+        <p>
+            Sammenlign det for eksempel med en kop. En kop er en genstand med egenskaber. En kop har en farve, et
+            design, vægt, et materiale den er lavet af osv.
+        </p>
+        <p>
+            På samme måde kan JavaScript-objekter have egenskaber, som definerer deres egenskaber.
+            Ud over objekter, der er foruddefineret i browseren, kan du definere dine egne objekter. Dette kapitel
+            beskriver, hvordan du bruger objekter, egenskaber og metoder, og hvordan du opretter dine egne objekter.
+        </p>
 
+        <p>
+            Arrays beskrives generelt som "listelignende objekter"; de er dybest set enkelte objekter, der indeholder
+            flere værdier gemt i en liste. Array-objekter kan lagres i variabler og håndteres på nogenlunde samme måde
+            som enhver anden type værdi, forskellen er, at vi kan få adgang til hver værdi inde i listen individuelt og
+            gøre super nyttige og effektive ting med listen, som gennemløb det og gør det samme for enhver værdi.
+        </p>
+        <p>
+            Måske har vi en række produktvarer og deres priser gemt i et array, og vi ønsker at gennemgå dem alle og
+            printe dem ud på en faktura, mens vi lægger alle priserne sammen og udskriver den samlede pris nederst.
+        </p>
+        <p>
+            Hvis vi ikke havde arrays, var vi nødt til at gemme hvert element i en separat variabel, og derefter kalde
+            den kode, der udskriver og tilføjer separat for hvert element. Dette ville være meget længere at skrive ud,
+            mindre effektivt og mere udsat for fejl. Hvis vi havde 10 varer at tilføje til fakturaen ville det allerede
+            være irriterende, men hvad med 100 varer eller 1000? Vi vender tilbage til dette eksempel senere i artiklen.
         </p>
 
         <h2>Mit ejet eksempel</h2>
@@ -163,7 +192,49 @@
 
         <h2>Dom queries</h2>
         <p>
+            DOM-forespørgsler er de metoder, der kaldes på DOM for at vælge og returnere et eller flere af de elementer,
+            der er repræsenteret i DOM. De(n) returnerede element(er) fra DOM-forespørgslen er så gratis at blive brugt
+            af et programmeringssprog til at gøre alle mulige ting. Hvis du kan drømme det kan du også gøre det.
+        </p>
+        <p>
+            DOM-forespørgselsmetoder:
+        </p>
+        <p>
+            Document.getElementById()
+        </p>
+        <p>
+            Denne metode returnerer et elementobjekt, der repræsenterer det element, hvis id matcher den streng, der
+            sendes ind som et argument. Da ID'er er unikke (eller i det mindste burde være det!), vil denne metode højst
+            returnere ét element. Hvis ingen findes, vil den returnere null. Bemærk denne metodes kamelkasse karakter.
+        </p>
 
+        <p>
+            Document.getElementsByClassName()
+        </p>
+        <p>
+            This method returns an HTML Collection (more on this in a moment) of all elements which match all of the
+            given class name(s).
+            I modsætning til document.getElementById() kan denne metode kaldes på elementer INDEN FOR DOM-træet.
+        </p>
+
+        <p>
+            Document.querySelector()
+        </p>
+        <p>
+            Denne metode returnerer det første element i dokumentet, der matcher vælgeren, der er sendt ind som et
+            argument. Det returnerer højst et enkelt element.
+            Enhver gyldig CSS-vælgerstreng vil fungere! Dette gør det til en stærk allieret, og en du bør sætte dig
+            grundigt ind i. Selv kombinatorer virker! Dette giver dig mulighed for grundigt at tilpasse dine
+            forespørgsler, så du kan være sikker på, at du kun vælger de elementer, du virkelig ønsker.
+        </p>
+
+        <p>
+            Document.querySelectorAll()
+        </p>
+        <p>
+            Denne metode returnerer en nodeliste (mere om det om et øjeblik), der repræsenterer listen over dokumentets
+            elementer, der matcher den eller de givne vælgere. Ligesom document.querySelector() forventer den, at en
+            eller flere CSS-vælgere skal sammenlignes med.
         </p>
 
         <h2>Mit ejet eksempel</h2>
